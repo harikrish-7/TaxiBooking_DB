@@ -1,0 +1,21 @@
+<web-app>
+  <servlet>
+    <servlet-name>BookingServlet</servlet-name>
+    <servlet-class>com.taxi.servlet.BookingServlet</servlet-class>
+  </servlet>
+	<servlet-mapping>
+    <servlet-name>BookingServlet</servlet-name>
+    <url-pattern>/BookingServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>HistoryServlet</servlet-name>
+    <servlet-class>com.taxi.servlet.HistoryServlet</servlet-class>
+  </servlet>
+	<servlet-mapping>
+    <servlet-name>HistoryServlet</servlet-name>
+    <url-pattern>/HistoryServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>welcome.html</welcome-file>
+  </welcome-file-list>
+</web-app>

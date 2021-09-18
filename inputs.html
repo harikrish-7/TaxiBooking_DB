@@ -1,0 +1,31 @@
+<html>
+<head><title>Booking Form</title></head>
+<body>
+<form action="BookingServlet" method="post">  
+<h1>Enter the Booking Details</h1>
+Your Name :<input type="text" name="name" required><br><br>
+Pick Point:
+<select type="number" name="pickloc" required>
+	<option value = 1>DLF</option>
+	<option value = 2>Velachery</option>
+	<option value = 3>Tambaram</option>
+	<option value = 4>T Nagar</option>
+	<option value = 5>Nungambakkam</option>
+</select>
+
+<br><br>
+Drop Point:
+<select type="number" name="droploc" required>
+	<option value = 1>DLF</option>
+	<option value = 2>Velachery</option>
+	<option value = 3>Tambaram</option>
+	<option value = 4>T Nagar</option>
+	<option value = 5>Nungambakkam</option>
+</select>
+<br><br>
+Pickup Time :<input type="time" name="pick_up_time" required><br><br>
+
+<input type="submit" value="Book">  
+</form>
+</body>
+</html>
